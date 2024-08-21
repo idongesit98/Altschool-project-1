@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="css/form.css">
+</head>
+<body>
+    <header>
+        <h1 class="sign-in">Sign Up</h1>
+        <h1>Already an AltSchooler? <a href="sign-in">Sign In!</a></h1>
+        <div class="header-left">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="schools.html">Programs in AltSchool</a>
+                    </li>
+                    <li>
+                        <a href="aboutMe.html">About Me</a>
+                    </li>
+                </ul>
+            </nav>  
+        </div>          
+    </header>
+
+    <div>
+        <section>
+            <h3>Take the next steps to apply at Alt School Africa</h2>
+            <table>
+                <tr>
+                    <td>
+                        <form action="#" method="post">
+                            <label for="first-name">First Name</label>
+                            <br>
+                            <input type="text" id="first-name" name="first-name" placeholder="Enter first name">
+                        </form>
+                    </td>
+
+                    <td>
+                        <form action="#" method="post">
+                            <label for="last-name">Last Name</label>
+                            <br>
+                            <input type="text" id="last-name" name="last-name" placeholder="Enter last name">
+                        </form>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <form action="#" method="post">
+                            <label for="gender">Gender</label>
+                            <br>
+                            <input type="text" name="gender" 
+                            id="gender" list="gender-list">
+                            <datalist id="gender-list">
+                                <option value="male"></option>
+                                <option value="female"></option>
+                            </datalist>
+                        <form>
+                    </td>
+
+                    <td>
+                        <form action="#" method="post">
+                            <label for="dob">Date of Birth</label>
+                            <br>
+                            <input type="date" id="dob" name="dob" placeholder="YYYY-MM-DD">
+                        </form>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <form action="#" method="post">
+                            <label for="email">Email</label>
+                            <br>
+                            <input type="email" id="email" name="email" placeholder="Enter email address">
+                        </form>
+                    </td>
+
+                    <td>
+                        <form action="#" method="post">
+                            <label for="phone">Phone Number</label>
+                            <br>
+                            <input type="tel" id="phone" name="phone" placeholder="0815438700">
+                        </form>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>
+                        <form action="">
+                            <label for="channels">How did you hear about us?</label>
+                            <br>
+                            <input type="text" name="channels" 
+                            id="channels" list="channel-list">
+                            <datalist id="channel-list">
+                                <option value="Twitter"></option>
+                                <option value="Facebook"></option>
+                                <option value="LinkedIn"></option>
+                                <option value="Friends"></option>
+                            </datalist>
+                        </form>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <form action="#" method="post">
+                            <label for="password">Password</label>
+                            <br>
+                            <input type="password" id="password" name="password" placeholder="Enter password">
+                        </form>
+                    </td>
+
+                    <td>
+                        <form action="#" method="post">
+                            <label for="confirm">Confirm Password</label>
+                            <br>
+                            <input type="password" id="phone" name="phone" placeholder="Enter password again">
+                        </form>
+                    </td>
+                </tr>
+            </table>
+            <p>By clicking continue,I agree to <a href="#terms">Terms of Use</a> and acknowledge
+            that i have read the <a href="privacy">Privacy Policy.</a></p>
+            <button type="submit">Submit</button>
+        </section>
+    </div>
+    
+</body>
+</html>
