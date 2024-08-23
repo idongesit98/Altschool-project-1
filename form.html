@@ -7,26 +7,14 @@
     <link rel="stylesheet" href="css/form.css">
 </head>
 <body>
-    <header>
-        <h1 class="sign-in">Sign Up</h1>
-        <h1>Already an AltSchooler? <a href="sign-in">Sign In!</a></h1>
-        <div class="header-left">
-            <nav>
-                <ul>
-                    <li>
-                        <a href="schools.html">Programs in AltSchool</a>
-                    </li>
-                    <li>
-                        <a href="aboutMe.html">About Me</a>
-                    </li>
-                </ul>
-            </nav>  
-        </div>          
-    </header>
+    <div class="alt-section">         
+        <h3>Already an AltSchooler? <a href="index.html">Sign In!</a></h1> 
+    </div> 
 
-    <div>
-        <section>
-            <h3>Take the next steps to apply at Alt School Africa</h2>
+    <section class="form-container">
+        <img class="form-image" src="assets/img/altschool.png" alt="">
+        <section class="form-section">
+            
             <table>
                 <tr>
                     <td>
@@ -86,6 +74,44 @@
                         </form>
                     </td>
                 </tr>
+
+                <tr>
+                    <td>
+                        <form action="#" method="post">
+                            <label for="country">Country</label>
+                            <br>
+                            <input type="text" name="country"
+                            id="country" list="country-list" placeholder="Select your country">
+                            <datalist id="country-list">
+                                <option value="Antigua and Barbados"></option>
+                                <option value="Algeria"></option>
+                                <option value="Bahrain"></option>
+                                <option value="Burkina faso"></option>
+                                <option value="Chile"></option>
+                                <option value="Canada"></option>
+                                <option value="Dominican Republic"></option>
+                                <option value="Djibouti"></option>
+                                <option value="Eswanthini"></option>
+                                <option value="Ethiopia"></option>
+                                <option value="Finland"></option>
+                                <option value="Faroe island"></option>
+                                <option value="Gabon"></option>
+                                <option value="Germany"></option>
+                                <option value="Switzerland"></option>
+                                <option value="Ukraine"></option>
+                                <option value="Poland"></option>
+                            </datalist>
+                        </form>
+                    </td>
+
+                    <td>
+                        <form action="#" method="post">
+                            <label for="text">State/City of Residence</label>
+                            <br>
+                            <input type="text" id="state" name="state" placeholder="Enter your state of residence">
+                        </form>
+                    </td>
+                </tr>
                 
                 <tr>
                     <td>
@@ -126,7 +152,7 @@
             that i have read the <a href="privacy">Privacy Policy.</a></p>
             <button type="submit">Submit</button>
         </section>
-    </div>
+    </section>
     
 </body>
 </html>
