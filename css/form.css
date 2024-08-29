@@ -112,11 +112,43 @@ p a:hover {
 
 @media (max-width: 768px) {
     .form-container {
+        flex-direction: column;
+        align-items: flex-start;
         padding: 15px;
         margin: 20px;
+    }
+    .form-image {
+        width: 100%;
+        height: auto;
     }
 
     table {
         border-spacing: 10px;
+    }
+
+    table td {
+        display: block;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    button[type="submit"] {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .alt-section {
+        justify-content: center;
+        padding: 10px 0;
+    }
+
+    .form-section {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    p {
+        font-size: 0.8rem;
     }
 }
